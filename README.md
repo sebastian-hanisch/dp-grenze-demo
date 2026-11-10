@@ -1,6 +1,6 @@
 # Wo die exakte Rechnung aufgibt – Streamlit-Demo
 
-<!-- Live-Link nach dem Deploy hier einsetzen (Leerzeile davor und danach). -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-dp-grenze-demo.streamlit.app/)**
 
 Sechste Demo der Linie **Bestandspolitiken** in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“. Dasselbe Beispiel wie in der ganzen Linie: ein Artikel, Poisson-Nachfrage mit Mittel 3 je Periode, **verlorene Nachfrage**, Lagerkosten 1 und Fehlmengenkosten 9 je Stück, Bestellung höchstens 8 Stück, Lieferzeit L Perioden. Die Vorgänger-Demos bestimmen die beste Bestellregel mit der exakten Rückwärtsrechnung (dynamische Programmierung, DP), solange sich der Zustand aufzählen lässt. Diese Demo misst, **wo das aufhört**, und was ein per Politikgradient gelerntes Netz an dieser Stelle leistet. Die Kante zu den Vorgängern ist ein `fix` mit negativem Befund: die Schwäche (die Tabelle über alle Zustände) wird nicht behoben, sondern vermessen, samt der Alternative.
 
